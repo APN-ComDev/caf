@@ -38,9 +38,9 @@ export default function SpecialPublicationSection() {
                         <h2 className='hidden xl:inline-block lg:mt-6 text-xl font-bold mb-6'>
                             Online virtual contributors’ symposium
                         </h2>
-                        <p>
-                            As part of this special publication, APN and SLYCAN TruLankast held
-                            an <a href="https://www.apn-gcr.org/?p=22362" className="no-underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:underline transition ease-in-out duration-300 font-semibold">online virtual contributors’ symposium</a> on
+                        <p className='leading-relaxed text-gray-500'>
+                            As part of this special publication, APN and SLYCAN Trust held
+                            an <a href="https://www.apn-gcr.org/?p=22362" className="no-underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:underline transition ease-in-out duration-300">online virtual contributors’ symposium</a> on
                             30 August 2022.
                         </p>
                     </div>
@@ -48,8 +48,8 @@ export default function SpecialPublicationSection() {
                         <h2 className='hidden xl:inline-block text-xl font-bold mb-6'>
                             International writeshop
                         </h2>
-                        <p>
-                            An <a href="https://www.apn-gcr.org/?p=23085" className="no-underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:underline transition ease-in-out duration-300 font-semibold">international writeshop</a> for the
+                        <p className='leading-relaxed text-gray-500'>
+                            An <a href="https://www.apn-gcr.org/?p=23085" className="no-underline text-blue-600 hover:text-blue-800 visited:text-purple-600 hover:underline transition ease-in-out duration-300">international writeshop</a> for the
                             special publication was held from 20-22 October 2022 in Colombo, Sri Lanka.
                             <span className='hidden lg:inline'>
                                 The writeshop, mainly an in-person event, gathered 16 participants from eight countries,
