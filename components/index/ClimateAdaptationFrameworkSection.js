@@ -24,7 +24,7 @@ export default function Workshops() {
                         alt=""
                         width="1024"
                         height="600"
-                        className='w-full lg:w-full rounded-lg drop-shadow-md col-span-3 lg:my-8'
+                        className='w-full rounded-lg drop-shadow-md col-span-3 lg:my-8'
                     />
                     <Image
                         priority
@@ -32,7 +32,7 @@ export default function Workshops() {
                         alt=""
                         width="195"
                         height="400"
-                        className='w-full lg:w-full rounded-lg drop-shadow-md lg:rotate-12 lg:-ml-2 lg:my-8'
+                        className='w-full rounded-lg drop-shadow-md lg:rotate-12 lg:-ml-2 lg:my-8'
                     />
                 </div>
             </div>

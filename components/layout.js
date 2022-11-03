@@ -38,7 +38,25 @@ export default function Layout({ children, home }) {
                     )}
                 </header>
                 <main>{children}</main>
-                <footer className='text-center my-8 text-gray-400'>&copy; 2022 APN Secretariat</footer>
+                <footer className='text-center mt-8 text-gray-500'>
+                    <div class="bg-gray-50">
+                        <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+                            <h2 class="text-left tracking-tight text-gray-900 sm:text-4xl">
+                                <span class="text-3xl font-bold block">For more information</span>
+                                <span class="text-xl font-bold block text-blue-600">Visit the project page or subscribe to our newsletter.</span>
+                                <span class="mt-2 text-base block text-gray-500">&copy; 2022 Asia-Pacific Network for Global Change Research</span>
+                            </h2>
+                            <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+                                <div class="inline-flex rounded-full shadow">
+                                    <a href="https://www.apn-gcr.org/?p=16150" class="inline-flex items-center justify-center rounded-full border-transparent bg-blue-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700">Visit project page</a>
+                                </div>
+                                <div class="ml-3 inline-flex rounded-full shadow">
+                                    <a href="https://apn-gcr.org/getmail" class="inline-flex items-center justify-center rounded-full border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50">Subscribe to APN Updates</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </div>
     );
