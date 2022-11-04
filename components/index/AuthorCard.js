@@ -13,7 +13,7 @@ export default function AuthorCard({ props }) {
                     </blockquote>
                     :
                     <p className="mb-6 text-slate-700 dark:text-slate-300 text-lg">
-                        “{props.chapter}”
+                        {props.chapter}
                     </p>
                 }
                 <figcaption className="flex items-center space-x-4 pt-2">
