@@ -157,7 +157,7 @@ export const authors = [
         linkedIn: '',
         faceBook: 'https://www.facebook.com/senaka.basnayake',
         quote: '',
-        chapter: 'People-centred approach to assessing and addressing impacts of climate change-induced Loss & damage',
+        chapter: '“People-centred approach to assessing and addressing impacts of climate change-induced Loss & damage”',
     },
     {
         key: 10,
