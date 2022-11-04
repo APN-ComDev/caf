@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
                             </div>
                             <ReadOnButton />
                             <h1 className='absolute invisible sm:visible text-center w-1/2 text-2xl sm:text-lg md:text-3xl lg:text-4xl xl:text-5xl text-white group-hover:text-white font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 duration-300'>
-                                {siteTitle}300
+                                {siteTitle}
                             </h1>
                         </div>
                     )}
