@@ -46,17 +46,19 @@ export default function AuthorCard({ props }) {
                                 </div>
                             </div>
                             <div className="flex mt-0.5 text-sm font-normal text-slate-500">
-                                <p className='mt-0.5'>{props.org}</p>
-                                <div className='flex flex-auto mt-1 ml-1'>
-                                    {props.orgTwitter &&
-                                        <SocialIcon className="grayscale brightness-150 hover:brightness-100 hover:grayscale-0 mr-1" style={{ height: 18, width: 18 }} url={props.orgTwitter} />
-                                    }
-                                    {props.orgLinkedIn &&
-                                        <SocialIcon className="grayscale brightness-200 hover:brightness-100 hover:grayscale-0 mr-1" style={{ height: 18, width: 18 }} url={props.orgLinkedIn} />
-                                    }
-                                    {props.orgFaceBook &&
-                                        <SocialIcon className="grayscale brightness-[2.25] hover:brightness-100 hover:grayscale-0 mr-1" style={{ height: 18, width: 18 }} url={props.orgFaceBook} />
-                                    }
+                                <div className='flex flex-auto mt-0.5'>
+                                    {props.org}
+                                    <div className='flex flex-auto mt-0.5 ml-1'>
+                                        {props.orgTwitter &&
+                                            <SocialIcon className="grayscale brightness-150 hover:brightness-100 hover:grayscale-0 mr-1" style={{ height: 18, width: 18 }} url={props.orgTwitter} />
+                                        }
+                                        {props.orgLinkedIn &&
+                                            <SocialIcon className="grayscale brightness-200 hover:brightness-100 hover:grayscale-0 mr-1" style={{ height: 18, width: 18 }} url={props.orgLinkedIn} />
+                                        }
+                                        {props.orgFaceBook &&
+                                            <SocialIcon className="grayscale brightness-[2.25] hover:brightness-100 hover:grayscale-0 mr-1" style={{ height: 18, width: 18 }} url={props.orgFaceBook} />
+                                        }
+                                    </div>
                                 </div>
                             </div>
                         </div>
