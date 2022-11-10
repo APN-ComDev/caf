@@ -7,7 +7,7 @@ export default function SpecialPublicationSection() {
     return (
         <section className='pt-20 grid place-items-center'>
             <h1 className='px-10 sm:px-20 text-center text-4xl font-bold'>Special publication</h1>
-            <div className='mt-12 px-10 w-3/4 2xl:w-1/2 text-center'>
+            <div className='mt-12 md:px-10 w-10/12 md:w-3/4 2xl:w-1/2 text-center'>
                 <p className='leading-relaxed text-left text-gray-500 mb-8'>
                     With the recommendation that APN continues to produce synthesis materials of the work
                     it conducts under the core programmes and frameworks, a special publication project is
@@ -31,7 +31,7 @@ export default function SpecialPublicationSection() {
                             alt=""
                             width="1920"
                             height="630"
-                            className='w-full rounded-lg drop-shadow-md col-span-3 -ml-8 -mt-8'
+                            className='w-full rounded-lg drop-shadow-md col-span-3 md:-ml-8 -mt-8'
                         />
                     </div>
                     <div className="my-6 pr-4">
@@ -44,7 +44,7 @@ export default function SpecialPublicationSection() {
                             30 August 2022.
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 content-end md:text-right mt-4 lg:mt-0 lg:mb-12 mb-6 pr-4 pl-2">
+                    <div className="grid grid-cols-1 content-end md:text-right mt-4 lg:mt-0 lg:mb-12 mb-6 pr-4 md:pl-2 md:-mr-2 lg:-mr-4">
                         <h2 className='hidden xl:inline-block text-xl font-bold mb-6'>
                             International writeshop
                         </h2>
@@ -63,7 +63,7 @@ export default function SpecialPublicationSection() {
                             alt=""
                             width="1920"
                             height="630"
-                            className='w-full rounded-lg drop-shadow-md col-span-3 ml-2 lg:ml-4 -mb-8'
+                            className='w-full rounded-lg drop-shadow-md col-span-3 md:ml-4 lg:ml-8 -mb-8'
                         />
                     </div>
                 </div>
