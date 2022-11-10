@@ -4,6 +4,7 @@ import AuthorsSection from '../components/index/AuthorsSection';
 import StatsSection from '../components/index/StatsSection';
 import SpecialPublicationSection from '../components/index/SpecialPublicationSection';
 import CafSection from '../components/index/ClimateAdaptationFrameworkSection';
+import ChaptersSection from '../components/index/ChaptersSection';
 
 export default function Home() {
 
@@ -12,15 +13,11 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
       <CafSection />
-
       <StatsSection />
-
       <SpecialPublicationSection />
-
       <AuthorsSection />
-
+      <ChaptersSection />
     </Layout>
   );
 }

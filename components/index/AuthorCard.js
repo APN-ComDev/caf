@@ -5,17 +5,16 @@ export default function AuthorCard({ props }) {
     return (
         <li className="text-sm leading-6 group hover:drop-shadow-md duration-500">
             <figure className="relative flex flex-col bg-slate-50 group-hover:bg-slate-200 duration-500 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
-                {props.quote ?
-                    <blockquote>
-                        <p className="mb-6 text-slate-700 dark:text-slate-300 text-lg">
-                            “{props.quote}”
-                        </p>
-                    </blockquote>
-                    :
+                <blockquote>
                     <p className="mb-6 text-slate-700 dark:text-slate-300 text-lg">
-                        {props.chapter}
+                        {props.quote &&
+                            <>“{props.quote}”</>
+                        }
+                        {!props.quote && props.chapter &&
+                            <>“{props.chapter}”</>
+                        }
                     </p>
-                }
+                </blockquote>
                 <figcaption className="flex items-center space-x-4 pt-2">
                     <Image
                         priority
