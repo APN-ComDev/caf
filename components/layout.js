@@ -11,6 +11,13 @@ export default function Layout({ children, home }) {
     return (
         <div className='flex justify-center font-inter'>
             <Head>
+                <link rel="icon" href="/favicon.ico" />
+                <meta name="description" content="A special page for COP27" />
+                <meta property="og:image" content="https://via.placeholder.com/800x400?text=:)" />
+                <meta name="og:title" content={siteTitle} />
+                <meta name="twitter:card" content="summary_large_image" />
+            </Head>
+            <div>
                 <Script
                     src="https://www.googletagmanager.com/gtag/js?id=G-1Z1PX8B97E"
                     strategy="afterInteractive"
@@ -23,13 +30,6 @@ export default function Layout({ children, home }) {
                         gtag('config', 'G-1Z1PX8B97E');
                     `}
                 </Script>
-                <link rel="icon" href="/favicon.ico" />
-                <meta name="description" content="A special page for COP27" />
-                <meta property="og:image" content="https://via.placeholder.com/800x400?text=:)" />
-                <meta name="og:title" content={siteTitle} />
-                <meta name="twitter:card" content="summary_large_image" />
-            </Head>
-            <div>
                 <header className=''>
                     {home && (
                         <div className='relative w-screen group'>
