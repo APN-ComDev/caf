@@ -193,7 +193,7 @@ export const authors = [
         quote: '',
         chapters: [
             {
-                title: 'People-centred approach to assessing and addressing impacts of climate change-induced Loss and damage',
+                title: 'People-centred approach to assessing and addressing impacts of climate change-induced loss and damage',
                 coauthors: 'Sindra Sharma'
             },
         ],
@@ -299,7 +299,7 @@ export const authors = [
         quote: 'Research will provide more evidence to prove and bring the new concept of loss and damage into decision-making processes. Hence, research helps in better-informed decisions to address climate change issues.',
         chapters: [
             {
-                title: 'Linkage between climate change adaptation (CCA), disaster risk reduction (DRR), and loss and damage (L&D): Case Studies in the Low-lying Coastal Cities of Indonesia, Philippines, Thailand and Vietnam',
+                title: 'Linkage between climate change adaptation (CCA), disaster risk reduction (DRR), and loss and damage (L&D): Case studies in the low-lying coastal cities of Indonesia, Philippines, Thailand and Vietnam',
                 coauthors: 'Rodel Lasco, Rizaldi Boer, & Nguyen Ninh'
             },
         ],
