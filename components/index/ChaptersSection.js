@@ -22,9 +22,9 @@ const AuthorChapters = authors
 
 export default function ChaptersSection() {
     return (
-        <section className='mt-16 relative mx-auto '>
+        <section className='mt-16 relative mx-auto mb-20'>
             <h1 className='px-10 sm:px-20 mb-12 text-center text-4xl font-bold'>Chapters</h1>
-            <div className='flex flex-wrap gap-6 justify-center xl:mx-12'>
+            <div className='flex flex-wrap gap-8 justify-center xl:mx-12'>
                 {AuthorChapters}
             </div>
         </section>
