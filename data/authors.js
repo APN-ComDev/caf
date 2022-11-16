@@ -278,7 +278,7 @@ export const authors = [
         quote: 'Research and evidence cannot reduce loss and damage associated with climate change but research and evidence can strongly consolidate the urgency and needs of addressing climate-induced loss and damage.',
         chapters: [
             {
-                title: 'Linkages between Disaster Risk Reduction and Climate Change Adaptation in perspective of Loss and Damage in Vietnam',
+                title: 'Linkages between disaster risk reduction and climate change adaptation from the perspective of loss and damage in Vietnam',
                 coauthors: 'Le Minh Nhat'
             }
         ],
