@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import ReadOnButton from './ReadOnButton';
+import Script from 'next/script'
 
 export const siteTitle = 'Special publication on linking climate change adaptation (CCA), disaster risk reduction (DRR) and loss and damage (L&D)';
 export const coverImageSrc = '/images/andre-mouton-ESiq6E4L3WY-unsplash.jpg'
@@ -12,13 +13,25 @@ export default function Layout({ children, home }) {
         <div className='flex justify-center font-inter'>
             <Head>
                 <link rel="icon" href="/favicon.ico" />
-                <meta name="description" content="Tinking with Next.js" />
+                <meta name="description" content="A special page for COP27" />
                 <meta property="og:image" content={ogImageSrc} />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@apn4gcr" />
             </Head>
             <div>
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-1Z1PX8B97E"
+                    strategy="afterInteractive"
+                />
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){window.dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-1Z1PX8B97E');
+                    `}
+                </Script>
                 <header className=''>
                     {home && (
                         <div className='relative w-screen group'>
