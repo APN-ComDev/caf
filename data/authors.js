@@ -12,7 +12,7 @@ export const authors = [
         twitter: 'https://twitter.com/LindaLooJapan',
         linkedIn: 'https://www.linkedin.com/in/dr-linda-anne-stevenson-a3340428/',
         faceBook: 'https://www.facebook.com/lastevenson1',
-        quote: 'Evidence-based research on the linkages between climate adaptation, disaster risk reduction and loss & damage that is codesigned among scientists and stakeholders provides the policy-relevant scientific basis needed for policy solutions that can enhance and scale up action on the ground.',
+        quote: 'Evidence-based research on the linkages between climate adaptation, disaster risk reduction and loss and damage that is codesigned among scientists and stakeholders provides the policy-relevant scientific basis needed for policy solutions that can enhance and scale up action on the ground.',
         chapters: [],
     },
     {
@@ -130,7 +130,7 @@ export const authors = [
         quote: 'Loss and damage research is an opportunity to better connect international climate governance processes with people dealing with the impacts of the climate crisis beyond the limits of adaptation measures, and bring vulnerable and marginalized voices to global platforms to demand transformative climate action now.',
         chapters: [
             {
-                title: 'Harmonizing disaster recovery approaches and loss & damage systems in Southeast Asia',
+                title: 'Harmonizing disaster recovery approaches and loss and damage systems in Southeast Asia',
                 coauthors: 'Danny Marks, Ham Kimkong, & Agus Nugroho'
             },
         ],
@@ -193,7 +193,7 @@ export const authors = [
         quote: '',
         chapters: [
             {
-                title: 'People-centred approach to assessing and addressing impacts of climate change-induced Loss & damage',
+                title: 'People-centred approach to assessing and addressing impacts of climate change-induced Loss and damage',
                 coauthors: 'Sindra Sharma'
             },
         ],
@@ -299,7 +299,7 @@ export const authors = [
         quote: 'Research will provide more evidence to prove and bring the new concept of loss and damage into decision-making processes. Hence, research helps in better-informed decisions to address climate change issues.',
         chapters: [
             {
-                title: 'Linkage between Climate Change Adaptation (CCA), Disaster Risk Reduction (DRR), and Loss and Damage (L&D): Case Studies in the Low-lying Coastal Cities of Indonesia, Philippines, Thailand and Vietnam',
+                title: 'Linkage between climate change adaptation (CCA), disaster risk reduction (DRR), and loss and damage (L&D): Case Studies in the Low-lying Coastal Cities of Indonesia, Philippines, Thailand and Vietnam',
                 coauthors: 'Rodel Lasco, Rizaldi Boer, & Nguyen Ninh'
             },
         ],
