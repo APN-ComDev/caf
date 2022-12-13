@@ -169,7 +169,7 @@ export const authors = [
         twitter: '',
         linkedIn: '',
         faceBook: 'https://www.facebook.com/senaka.basnayake',
-        quote: 'Science and evidence-based tools are key to take actions to avert, minimize and address loss and damage to climate-induced hydro-meteorological extremes. The econometric model (developed under an APN project) could be used as an adaptation tool in the agriculture sector to take proactive actions to minimize potential loss and damage and sector specific planning and development',
+        quote: 'Science and evidence-based tools are key to take actions to avert, minimize and address loss and damage to climate-induced hydro-meteorological extremes. The econometric model (developed under an APN project) could be used as an adaptation tool in the agriculture sector to take proactive actions to minimize potential loss and damage and sector specific planning and development.',
         chapters: [
             {
                 title: 'An econometric approach to estimate loss and damage from flood hazard in the agriculture sector in Sri Lanka',
