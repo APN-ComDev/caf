@@ -12,15 +12,10 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
-      <CafSection />
-
-      <StatsSection />
-
-      <SpecialPublicationSection />
-
-      <AuthorsSection />
-
+        <CafSection />
+        <StatsSection />
+        <SpecialPublicationSection />
+        <AuthorsSection />
     </Layout>
   );
 }

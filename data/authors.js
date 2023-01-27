@@ -14,6 +14,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/lastevenson1',
         quote: 'Evidence-based research on the linkages between climate adaptation, disaster risk reduction and loss & damage that is codesigned among scientists and stakeholders provides the policy-relevant scientific basis needed for policy solutions that can enhance and scale up action on the ground.',
         chapter: '',
+        youTubeVideoId: 'yC9yHvKYXHE',
     },
     {
         key: 1,
@@ -30,6 +31,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/akio.takemoto.90',
         quote: '',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 2,
@@ -46,6 +48,7 @@ export const authors = [
         faceBook: '',
         quote: 'Research will provide a better understanding of the imminent danger posed by climate change to individuals, communities and countries.  Proper policy research on the issue will certainly help the government and other actors to take effective measures  to deal with the climate emergency situation.',
         chapter: '',
+        youTubeVideoId: 'yC9yHvKYXHE',
     },
     {
         key: 3,
@@ -62,6 +65,7 @@ export const authors = [
         faceBook: '',
         quote: 'Research can help articulate the voice of the poor and marginalized. It can help bridge the gap between policy and research for action. For any intervention on building resilience of the vulnerable, data and analysis can help the design and better targeting.',
         chapter: 'Assessing loss and damage at the local level: Case study of Pakistan / Research design for assessing losses and damages from climate change in vulnerable communities',
+        youTubeVideoId: '',
     },
     {
         key: 4,
@@ -78,6 +82,7 @@ export const authors = [
         faceBook: '',
         quote: 'Non-economic loss and damage research and communication require disambiguation of its meaning and inference for different stakeholders, differentiation of approaches, and disaggregation of societal and environmental costs and opportunities. This 3D approach can drive focused capacity development through effective actions mitigating losses and damages.',
         chapter: 'Priorities for addressing slow-onset climatic events in ASEAN countries',
+        youTubeVideoId: '',
     },
     {
         key: 5,
@@ -94,6 +99,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/lam.noi/',
         quote: 'Research results provide a robust understanding of potential future climate change impacts on infrastructure, and will reduce the risk of loss and damage to infrastructure in the near future.',
         chapter: 'Improving climate resilience of urban road infrastructure in Southeast Asia',
+        youTubeVideoId: '',
     },
     {
         key: 6,
@@ -110,6 +116,7 @@ export const authors = [
         faceBook: '',
         quote: 'Loss and damage research is an opportunity to better connect international climate governance processes with people dealing with the impacts of the climate crisis beyond the limits of adaptation measures, and bring vulnerable and marginalized voices to global platforms to demand transformative climate action now.',
         chapter: 'Harmonizing disaster recovery approaches and loss & damage systems in Southeast Asia',
+        youTubeVideoId: '',
     },
     {
         key: 7,
@@ -126,6 +133,7 @@ export const authors = [
         faceBook: '',
         quote: 'Loss and Damage is already happening today and requires solutions now for those suffering the consequences. People-centered, participatory research is needed to integrate the views and values of the most vulnerable people who don’t have a voice in the climate negotiations.',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 8,
@@ -142,6 +150,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/senaka.basnayake',
         quote: 'Science and evidence-based tools are key to take actions to avert, minimize and address loss and damage to climate-induced hydro-meteorological extremes. The econometric model (developed under an APN project) could be used as an adaptation tool in the agriculture sector to take proactive actions to minimize potential loss and damage and sector specific planning and development',
         chapter: 'An econometric approach to estimate loss and damage from flood hazard in the agriculture sector in Sri Lanka',
+        youTubeVideoId: '',
     },
     {
         key: 9,
@@ -158,6 +167,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/senaka.basnayake',
         quote: '',
         chapter: '“People-centred approach to assessing and addressing impacts of climate change-induced Loss & damage”',
+        youTubeVideoId: '',
     },
     {
         key: 10,
@@ -174,6 +184,7 @@ export const authors = [
         faceBook: '',
         quote: 'The implementation of Loss and Damage programmes can only be accelerated if they are based on solid research findings.',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 11,
@@ -190,6 +201,7 @@ export const authors = [
         faceBook: '',
         quote: 'Findings from research on loss and damage contribute to improved pre- and post-disaster planning.',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 12,
@@ -206,6 +218,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/dr.saleemulhuq/',
         quote: 'Loss and Damage from human-induced climate change is a new issue that requires research and knowledge generation to enable responses to be designed appropriately. ',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 13,
@@ -222,6 +235,7 @@ export const authors = [
         faceBook: '',
         quote: 'Evidence-based research has provided answers when causes are unknown by identifying gaps and demonstrating consequences, especially in the effort to understand loss and damage. This effort is critical to contributing to forecasting and preparing for future climate change impacts and risks and also improving technology and infrastructure that protects and sustains the environment.',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 14,
@@ -238,6 +252,7 @@ export const authors = [
         faceBook: '',
         quote: 'Research and evidence cannot reduce loss and damage associated with climate change but research and evidence can strongly consolidate the urgency and needs of addressing climate-induced loss and damage.',
         chapter: '',
+        youTubeVideoId: '',
     },
     {
         key: 15,
@@ -254,5 +269,6 @@ export const authors = [
         faceBook: 'https://www.facebook.com/hoang.hop.58173000/about',
         quote: 'Research will provide more evidence to prove and bring the new concept of loss and damage into decision-making processes. Hence, research helps in better-informed decisions to address climate change issues.',
         chapter: '',
+        youTubeVideoId: '',
     },
 ];
