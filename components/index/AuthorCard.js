@@ -16,21 +16,18 @@ export default function AuthorCard({ props, toggleVideo, setVideoId }) {
                         <p className="mb-6 text-slate-700 dark:text-slate-300 text-lg">
                             “{props.quote}”
                         </p>
-                        {props.youTubeVideoId &&
-                            <button className="flex inline-flex mb-4 items-center justify-center rounded-full border-transparent bg-slate-200 px-5 py-3 text-base font-medium text-blue hover:text-white hover:bg-blue-700 transition" onClick={()=> openVideo()}>
-                                <svg className="w-6 h-6 mr-2" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FF0000">
-                                    <rect width="50%" height="50%" x="5" y="5"  fill="#FFFFFF"/>
-                                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-                                </svg> Watch video message
-                            </button>
-                        }
                     </blockquote>
                     :
                     <p className="mb-6 text-slate-700 dark:text-slate-300 text-lg">
-                        {props.chapter}
+                        {props.quote &&
+                            <>“{props.quote}”</>
+                        }
+                        {!props.quote && props.chapter &&
+                            <>“{props.chapter}”</>
+                        }
                     </p>
                 }
-                <figcaption className="flex group items-center space-x-4 pt-2">
+                <figcaption className="flex group items-center space-x-4">
                     <div className="flex flex-none group transition ease-in-out duration-300">
                         <Image
                             priority
@@ -80,6 +77,14 @@ export default function AuthorCard({ props, toggleVideo, setVideoId }) {
                         </div>
                     </div>
                 </figcaption>
+                {props.youTubeVideoId &&
+                    <button className="group flex inline-flex mt-6 items-center justify-center rounded-full border-slate-300 border-2 hover:border-transparent bg-slate-50 px-4 py-2 text-base font-medium text-blue hover:text-white hover:bg-gradient-to-r from-indigo-500 to-blue-500 hover:drop-shadow transition" onClick={()=> openVideo()}>
+                        <svg className="w-6 h-6 mr-2 grayscale group-hover:grayscale-0" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FF0000">
+                            <rect width="50%" height="50%" x="5" y="5"  fill="#FFFFFF"/>
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg> Watch video message
+                    </button>
+                }
             </figure>
         </li >
     )

@@ -4,7 +4,8 @@ import ReadOnButton from './ReadOnButton';
 import Script from 'next/script'
 
 export const siteTitle = 'Special publication on linking climate change adaptation (CCA), disaster risk reduction (DRR) and loss and damage (L&D)';
-export const imageSrc = '/images/andre-mouton-ESiq6E4L3WY-unsplash.jpg'
+export const coverImageSrc = '/images/andre-mouton-ESiq6E4L3WY-unsplash.jpg'
+export const ogImageSrc = '/images/og.jpg'
 
 export default function Layout({ children, home }) {
 
@@ -13,9 +14,10 @@ export default function Layout({ children, home }) {
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="A special page for COP27" />
-                <meta property="og:image" content="https://via.placeholder.com/800x400?text=:)" />
+                <meta property="og:image" content={ogImageSrc} />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:site" content="@apn4gcr" />
             </Head>
             <div>
                 <Script
@@ -36,7 +38,7 @@ export default function Layout({ children, home }) {
                             <div className='brightness-50 group-hover:brightness-100 duration-300'>
                                 <Image
                                     priority
-                                    src={imageSrc}
+                                    src={coverImageSrc}
                                     alt=""
                                     width="1920"
                                     height="630"
