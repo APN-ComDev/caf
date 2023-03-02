@@ -7,7 +7,7 @@ const StatsCards = stats.map((item) => (
 
 export default function StatsSection() {
     return (
-        <section className='py-20 grid place-items-center bg-gradient-to-r from-slate-200 to-indigo-200'>
+        <section className='py-20 grid place-items-center bg-gradient-to-tr from-lime-100 to-blue-300'>
             <h1 className='px-10 sm:px-20 text-center text-4xl font-bold'>APN activities addressing loss and damage</h1>
             <p className="my-6 px-10 w-3/4 xl:w-1/2 text-gray-500 text-center">
                 Since the launch of the CAF, APN has supported 14 projects and conducted various activities related to

@@ -1,3 +1,5 @@
+import CountUp from 'react-countup'
+
 export default function StatsCard({ props }) {
     return (
         <div className="text-center w-full sm:w-80">
@@ -6,7 +8,7 @@ export default function StatsCard({ props }) {
             </div>
             }
             <div className="text-indigo-800 text-8xl font-bold">
-                {props.number}
+                <CountUp end={props.number} duration={1} enableScrollSpy={true} scrollSpyOnce={true}/>
             </div>
             <div className="text-indigo-800 text-4xl">
                 {props.unit}

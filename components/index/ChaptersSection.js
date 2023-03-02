@@ -4,10 +4,10 @@ const AuthorChapters = authors
     .filter((author) => author.chapters.length > 0)
     .map((author) => {
         return author.chapters.map((chapter) => (
-            <div class="border max-w-md rounded overflow-hidden shadow hover:shadow-md hover:bg-slate-100" key={chapter.title}>
-                <div class="px-6 py-4">
-                    <div class="font-semibold text-xl mb-2 text-gray-700">{chapter.title}</div>
-                    <p class="text-gray-500 text-base">{author.name}
+            <div className="border max-w-md rounded overflow-hidden shadow hover:shadow-md hover:bg-slate-100" key={chapter.title}>
+                <div className="px-6 py-4">
+                    <div className="font-semibold text-xl mb-2 text-gray-700">{chapter.title}</div>
+                    <p className="text-gray-500 text-base">{author.name}
                         {chapter.coauthors && chapter.coauthors.includes(',') &&
                             <>, {chapter.coauthors}</>
                         }

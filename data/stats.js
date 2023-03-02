@@ -15,8 +15,8 @@ export const stats = [
     },
     {
         key: 2,
-        pre: 'These activities have produced',
-        number: '100+',
+        pre: 'These activities have produced over',
+        number: '100',
         unit: 'outputs',
         post: 'from 14 loss and damage-related projects.'
     },

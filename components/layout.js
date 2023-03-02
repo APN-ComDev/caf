@@ -54,7 +54,7 @@ export default function Layout({ children, home }) {
                 </header>
                 <main>{children}</main>
                 <footer className='text-center mt-8 text-gray-500'>
-                    <div className="bg-gray-50">
+                    <div className="bg-gray-100">
                         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
                             <h2 className="text-left tracking-tight text-gray-900 sm:text-4xl">
                                 <span className="text-3xl font-bold block">For more information</span>
