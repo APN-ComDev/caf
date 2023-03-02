@@ -14,7 +14,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/lastevenson1',
         quote: 'Evidence-based research on the linkages between climate adaptation, disaster risk reduction and loss and damage that is codesigned among scientists and stakeholders provides the policy-relevant scientific basis needed for policy solutions that can enhance and scale up action on the ground.',
         chapters: [],
-        youTubeVideoId: "jrnix3GoKYk",
+        youTubeVideoId: "8zrZkrOAhc8",
     },
     {
         key: 1,
@@ -31,7 +31,7 @@ export const authors = [
         faceBook: 'https://www.facebook.com/akio.takemoto.90',
         quote: '',
         chapters: [],
-        youTubeVideoId: "C0cWexzr4gM",
+        youTubeVideoId: "aHSWRgmkYgw",
     },
     {
         key: 2,
@@ -70,7 +70,7 @@ export const authors = [
                 coauthors: ''
             },
         ],
-        youTubeVideoId: "5nnK1qtFLiY",
+        youTubeVideoId: "lkcemGni9PI",
     },
     {
         key: 4,
@@ -96,7 +96,7 @@ export const authors = [
                 coauthors: 'Yohei Chiba, Antonio P. Abamo, Md. Atikul Islam, Chandra Sekhar Bahinipati, & Sangam Shrestha'
             },
         ],
-        youTubeVideoId: "qnwiyfROczc",
+        youTubeVideoId: "fVkTOQAZGPU",
     },
     {
         key: 5,
@@ -118,7 +118,7 @@ export const authors = [
                 coauthors: 'Richard T Cooper,  Tran Quang Minh, Cao Thi Thu Huong, Spoann Vine, Sath  Sitak, Rotchana Intharathirat, & Jaranporn Lertsahakul'
             },
         ],
-        youTubeVideoId: "3uuU2VTXyV8",
+        youTubeVideoId: "9T9RahrwIQg",
     },
     {
         key: 6,
@@ -140,7 +140,7 @@ export const authors = [
                 coauthors: 'Danny Marks, Ham Kimkong, & Agus Nugroho'
             },
         ],
-        youTubeVideoId: "Tar_J3TvOM0",
+        youTubeVideoId: "Q5FaEW3I0iM",
     },
     {
         key: 7,
@@ -162,7 +162,7 @@ export const authors = [
                 coauthors: ''
             },
         ],
-        youTubeVideoId: "W1E9GcBk9es",
+        youTubeVideoId: "8S2Git3cMgE",
     },
     {
         key: 8,
@@ -184,7 +184,7 @@ export const authors = [
                 coauthors: 'Susantha Jayasinghe, & Niladri Gupta'
             },
         ],
-        youTubeVideoId: "PUFPIGUaiHs",
+        youTubeVideoId: "Uv02iMOv-iA",
     },
     {
         key: 9,
@@ -322,9 +322,9 @@ export const authors = [
     },
     {
         key: 15,
-        col: 0,
+        col: 2,
         hidden: false,
-        name: 'Vositha Wijenayake',
+        name: 'Dennis Mombauer',
         org: 'SLYCAN Trust',
         image: '',
         orgTwitter: '',
@@ -337,8 +337,9 @@ export const authors = [
         chapters: [
             {
                 title: 'Policy gaps and needs analysis for the implementation of NDCs on adaptation and loss and damage in Bangladesh, Nepal, and Sri Lanka',
-                coauthors: 'Dennis Mombauer'
+                coauthors: 'Vositha Wijenayake'
             }
         ],
+        youTubeVideoId: "9u9O_jjAZFI",
     },
 ];
